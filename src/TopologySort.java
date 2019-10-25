@@ -38,7 +38,8 @@ public class TopologySort {
 
             table.remove(zeroInNode);
         }
-        int 2d = (num % 100) / 10;
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.le
         return ret;
     }
     public List<Integer> topologySort(int[][] edges){
